@@ -1,9 +1,13 @@
 # Task List
 
-[ ] generate resources: venue, venue_comment, suggestion
-  `rails g resource`
-[ ] set up migrations & run them
-[ ] set up models
+[x] generate models: venue, venue_comment, suggestion
+  `rails g model`
+[x] set up migrations & run them
+[x] create seed data
+  red rocks
+  madison square garden
+  brooklyn steel
+[x] set up models
 [ ] set up controllers
 [ ] set up routes
 [ ] set up AMS
