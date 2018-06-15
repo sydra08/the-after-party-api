@@ -9,7 +9,17 @@
   brooklyn steel
 [x] set up models
 [ ] set up controllers
+  [ ] venues
+  [ ] suggestions 
+  [ ] reviews 
 [ ] set up routes
-[ ] set up AMS
+  [ ] venues
+  [ ] suggestions (should probably be nested under venues?)
+  [ ] reviews (should probably be nested under venues?)
+[x] set up AMS
 [ ] set up serializers
+  [ ] venues list
+  [ ] venue show
+  [ ] suggestion list
+  [ ] review list
 [ ] test JSON
