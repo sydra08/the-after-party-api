@@ -10,8 +10,18 @@
 [x] set up models
 [ ] set up controllers
   [ ] venues
-  [ ] suggestions 
-  [ ] reviews 
+    [x] index
+    [x] show
+    [ ] create
+    [ ] update
+  [ ] suggestions
+    [ ] index
+    [ ] create
+    [ ] update
+  [ ] reviews
+    [ ] index
+    [ ] create
+    [ ] update
 [ ] set up routes
   [ ] venues
   [ ] suggestions (should probably be nested under venues?)
