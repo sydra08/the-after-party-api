@@ -12,4 +12,12 @@ class VenuesController < ApplicationController
       render status: 404
   end
 
+  def update
+  end
+
+  private
+
+  def venue_params
+  end
+
 end

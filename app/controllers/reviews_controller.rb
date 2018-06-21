@@ -15,11 +15,6 @@ class ReviewsController < ApplicationController
       render json: @review, status: 400
   end
 
-  def update
-    # should return 200 or 400
-    # 200 means OK
-  end
-
   private
 
   def review_params
