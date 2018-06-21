@@ -12,24 +12,32 @@
   [ ] venues
     [x] index
     [x] show
-    [ ] create
     [ ] update
   [ ] suggestions
-    [ ] index
+    [x] index
     [ ] create
     [ ] update
   [ ] reviews
-    [ ] index
-    [ ] create
+    [x] index
+    [x] create
     [ ] update
 [ ] set up routes
-  [ ] venues
-  [ ] suggestions (should probably be nested under venues?)
-  [ ] reviews (should probably be nested under venues?)
+  [x] venues
+  [x] suggestions (should probably be nested under venues?)
+  [x] reviews (should probably be nested under venues?)
 [x] set up AMS
-[ ] set up serializers
-  [ ] venues list
-  [ ] venue show
-  [ ] suggestion list
-  [ ] review list
+[x] set up serializers
+  [x] location
+  [x] venues list - name, location_id, avg_rating, capacity
+    + don't think it needs to have the reviews or suggestions associations listed here, only location
+  [x] venue show - name, location_id, avg_rating, capacity with all associations
+  [x] suggestion list - all fields
+    NAME location avg_price
+    Category | Upvotes Downvotes
+  [x] review list - all fields
+    Rating
+    Content
 [ ] test JSON
+[ ] think location association should be removed from suggestions
+[ ] should the API and the react app be separate things? how do i keep them in the same repo? guessing they should be bc there's only one place to add a link in the lesson
+  + https://www.fullstackreact.com/articles/how-to-get-create-react-app-to-work-with-your-rails-api/
