@@ -6,18 +6,10 @@ class VenuesController < ApplicationController
 
   def show
     @venue = Venue.find_by(id: params[:id])
-    render json: @venue, serializer: VenueSerializer
-  end
-
-  def create
-  end
-
-  def update
-  end
-
-  private
-
-  def venue_params
+    if @venue
+      render json: @venue, serializer: VenueSerializer, status: 200
+    else
+      render status: 404
   end
 
 end
